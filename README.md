@@ -15,7 +15,7 @@ for sclera segmentation. The paper has been submitted for possible publication. 
 ## How to run the code?
 
 ```
-python test.py 
+python testing.py 
 ```
 
 ## Questions
