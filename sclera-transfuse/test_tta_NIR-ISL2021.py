@@ -1,5 +1,5 @@
 
-from lib.DS_TransUNet import UNet,UNet1, UNet2
+from lib.Sclera_TransUNet import UNet,UNet1, UNet2
 import glob
 import numpy as np
 import scipy.misc
