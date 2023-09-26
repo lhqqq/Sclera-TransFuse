@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jan 24 15:46:35 2018
 
-@author: wcy
-"""
 from lib.DS_TransUNet import UNet,UNet1, UNet2
 import glob
 import numpy as np
