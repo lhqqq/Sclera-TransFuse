@@ -11,7 +11,8 @@ for sclera segmentation. The paper has been submitted for possible publication. 
 - Python 3.8
 -  NVIDIA GPU + CUDA CuDNN
 -  \>= PyTorch 1.8.0
-
+## Checkpoint & Weight
+https://drive.google.com/drive/folders/104TAazlhPCHCWI1IcPqgUJKLjj1alGpr?usp=share_link
 ## How to run the code?
 
 ```
