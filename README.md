@@ -1,4 +1,4 @@
-# 👏 Sclera-TransFuse 🔥
+# Sclera-TransFuse 
 
 We have previously released Sclera-TransFuse (IJCB 2023 version). We are now taking down all the code for further work. In the upcoming steps, we will make available the weights and model code related to the application of Sclera-TransFuse in sclera segmentation and recognition.
 
