@@ -17,9 +17,3 @@ If you find our work useful in your research, please consider citing:
         year={2023},
         organization={IEEE}
 }
- @article{yu2022deep,
-      title={Deep Learning for Face Anti-Spoofing: A Survey},
-      author={Yu, Zitong and Qin, Yunxiao and Li, Xiaobai and Zhao, Chenxu and Lei, Zhen and Zhao, Guoying},
-      journal={IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
-      year={2022}
-    }
