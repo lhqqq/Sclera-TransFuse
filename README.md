@@ -32,7 +32,6 @@ These codes are not the final version.
 Some of the codes in this repo are borrowed from:
 * [LightCNN](https://github.com/AlfredXiangWu/LightCNN)
 * [DS-TransUNet](https://github.com/TianBaoGe/DS-TransUNet)
-* [TransFuse](https://github.com/Rayicer/TransFuse)
 * [Combining-EfficientNet-and-Vision-Transformers-for-Video-Deepfake-Detection](https://github.com/davide-coccomini/Combining-EfficientNet-and-Vision-Transformers-for-Video-Deepfake-Detection)
 
 
