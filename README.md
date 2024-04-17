@@ -1,6 +1,6 @@
 # 👏 Sclera-TransFuse  🔥
 
-This repository contains the official code of Sclera-TransFuse: Fusing Vision Transformer and CNN for Accurate Sclera Segmentation and
+This repository contains the testing code of Sclera-TransFuse: Fusing Vision Transformer and CNN for Accurate Sclera Segmentation and
 Recognition
 
 ## Requirements
@@ -9,33 +9,35 @@ Recognition
 * `timm>=0.5`
 
 ## Ubiris.v2
-
+A UBIRIS.v2 subset of 683 eye images with manually labeled sclera masks, which can be found in this [download link (Google Drive)]() and [download link (Baidu Pan)](https://pan.baidu.com/s/1WJ6anKO3d9MR6vzrXkX6pQ?pwd=p879) . 
 ## Experiments
-1. **Dataset**
-	+ Downloading training dataset and move it into `./data`, which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/17sUo2dLcwgPdO_fD4ySiS_4BVzc3wvwA/view?usp=sharing).
-	+ Downloading testing dataset and move it into `./data` , which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1us5iOMWVh_4LAiACM-LQa73t1pLLPJ7l/view?usp=sharing).
-2. **Testing**
-	+ Downloading our trained DS-TransUNet-B from [Baidu Pan](https://pan.baidu.com/s/1EFZOX1C84mg1mVK6cAvpxg) (dd79), and move it into `./checkpoints`.
-	+ run `test_kvasir.py`
-	+ run `crcriteria.py` to get the DICE score, which uses [EvaluateSegmentation](https://github.com/Visceral-Project/EvaluateSegmentation). Or you can download our result images from [Baidu Pan](https://pan.baidu.com/s/1EFZOX1C84mg1mVK6cAvpxg) (dd79).
-3. **Training**
-	+ downloading `Swin-T` and `Swin-B` from [Swin-Transformer](https://github.com/microsoft/Swin-Transformer) to `./checkpoints`.
-	+ run `train_kvasir.py`
+1. **Sclera-TransFuse-Seg**
+   +  Downloading our trained weight from [Google Drive](https://drive.google.com/drive/folders/104TAazlhPCHCWI1IcPqgUJKLjj1alGpr?usp=drive_link), and move it into `./checkpoints`
+	+ modify the path in `Sclera_TransFuse.py` 
+	+ modify the path in `testing.py`
+	+ run `testing.py`
+2.  **How to training Sclera-TransFuse-Rec**
+  	+ modify --train_root_path=" "   --train_list=" "  and --save_path=" " in "training.bash"
+	+ run `training.bash`
+3. **Feature extraction and matching**
+	+ Downloading our trained weight from [Google Drive](https://drive.google.com/file/d/1ZvQPEork9z9z01KM376Lp5APxYS3hfW6/view?usp=drive_link)
+	+ modify `matching.py`
+     + run `matching.py`
 
+These codes are not the final version.
 
-Code of other tasks will be comming soon.
 
 
 ## Reference
 Some of the codes in this repo are borrowed from:
-* [Swin-Transformer](https://github.com/microsoft/Swin-Transformer)
-* [PraNet](https://github.com/DengPingFan/PraNet)
+* [LightCNN](https://github.com/AlfredXiangWu/LightCNN)
+* [DS-TransUNet](https://github.com/TianBaoGe/DS-TransUNet)
 * [TransFuse](https://github.com/Rayicer/TransFuse)
-
+* [Combining-EfficientNet-and-Vision-Transformers-for-Video-Deepfake-Detection](https://github.com/davide-coccomini/Combining-EfficientNet-and-Vision-Transformers-for-Video-Deepfake-Detection)
 
 
 ## Questions
-Please drop an email to tianbaoge24@gmail.com
+Please drop an email to haiqing_li@stu.bucea.edu.cn
 
 
 
