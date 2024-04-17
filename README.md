@@ -9,7 +9,7 @@ Recognition
 * `timm>=0.5`
 
 ## Ubiris.v2
-A UBIRIS.v2 subset of 683 eye images with manually labeled sclera masks, which can be found in this [download link (Google Drive)]() and [download link (Baidu Pan)](https://pan.baidu.com/s/1WJ6anKO3d9MR6vzrXkX6pQ?pwd=p879) . 
+A UBIRIS.v2 subset of 683 eye images with manually labeled sclera masks, which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/18eW1JGHnv1SRyoMzSEq_3mmlRJ0_KgZ6/view?usp=sharing) and [download link (Baidu Pan)](https://pan.baidu.com/s/1WJ6anKO3d9MR6vzrXkX6pQ?pwd=p879) . 
 ## Experiments
 1. **Sclera-TransFuse-Seg**
    +  Downloading our trained weight from [Google Drive](https://drive.google.com/drive/folders/104TAazlhPCHCWI1IcPqgUJKLjj1alGpr?usp=drive_link), and move it into `./checkpoints`
