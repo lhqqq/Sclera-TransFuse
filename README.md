@@ -4,14 +4,13 @@ This repository contains the official code of Sclera-TransFuse: Fusing Vision Tr
 Recognition
 
 ## Requirements
-* `Python>=3.7`
-* `Pytorch>=1.8.0` && `CUDA 11.1`
-* `timm==0.4.5`
+* `Python>=3.8`
+* `Pytorch>=1.13.0` 
+* `timm>=0.5`
 
+## Ubiris.v2
 
 ## Experiments
-
-### Kvasir-SEG
 1. **Dataset**
 	+ Downloading training dataset and move it into `./data`, which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/17sUo2dLcwgPdO_fD4ySiS_4BVzc3wvwA/view?usp=sharing).
 	+ Downloading testing dataset and move it into `./data` , which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1us5iOMWVh_4LAiACM-LQa73t1pLLPJ7l/view?usp=sharing).
@@ -34,24 +33,9 @@ Some of the codes in this repo are borrowed from:
 * [TransFuse](https://github.com/Rayicer/TransFuse)
 
 
-## Citation
-Please consider citing us if you find this work helpful:
-
-```bibtex
-@article{lin2022ds,
-  title={DS-TransUNet: Dual Swin Transformer U-Net for Medical Image Segmentation},
-  author={Lin, Ailiang and Chen, Bingzhi and Xu, Jiayu and Zhang, Zheng and Lu, Guangming and Zhang, David},
-  journal={IEEE Transactions on Instrumentation and Measurement},
-  year={2022},
-  publisher={IEEE}
-}
-```
 
 ## Questions
 Please drop an email to tianbaoge24@gmail.com
-
-
-
 
 
 
