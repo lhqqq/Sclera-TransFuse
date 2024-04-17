@@ -17,7 +17,7 @@ A UBIRIS.v2 subset of 683 eye images with manually labeled sclera masks, which c
 	+ modify the path in `testing.py`
 	+ run `testing.py`
 2.  **How to training Sclera-TransFuse-Rec**
-  	+ modify --train_root_path=" "   --train_list=" "  and --save_path=" " in "training.bash"
+  	+ modify --train_root_path=" "   --train_list=" "  and --save_path=" " in ` training.bash` 
 	+ run `training.bash`
 3. **Feature extraction and matching**
 	+ Downloading our trained weight from [Google Drive](https://drive.google.com/file/d/1ZvQPEork9z9z01KM376Lp5APxYS3hfW6/view?usp=drive_link)
