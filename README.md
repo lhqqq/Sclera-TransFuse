@@ -50,4 +50,10 @@ If you find our work useful in your research, please consider citing:
         pages={1--8},
         year={2023},
         organization={IEEE}
-
+	@article{wang2024sclera,
+	  title={Sclera-transfuse: Fusing vision transformer and cnn for accurate sclera segmentation and recognition},
+	  author={Wang, Caiyong and Li, Haiqing and Zhang, Yixin and Zhao, Guangzhe and Wang, Yunlong and Sun, Zhenan},
+	  journal={IEEE Transactions on Biometrics, Behavior, and Identity Science},
+	  year={2024},
+	  publisher={IEEE}
+	}
